@@ -1,8 +1,9 @@
 module github.com/alisonsavi64/myshortlinks
 
-require(
+require (
     github.com/gocql/gocql v1.6.0
     github.com/golang-migrate/migrate/v4 v4.17.0
+    github.com/redis/go-redis/v9 v9.5.1
 )
 
 go 1.23
