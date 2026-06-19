@@ -78,7 +78,7 @@ services:
     ports:
       - "3000:8080"
     environment:
-      - CASSANDRA_HOSTS=cassandra-1,cassandra-2,cassandra-3,cassandra-4
+      - CASSANDRA_HOSTS=cassandra-1
       - REDIS_HOST=redis:6379
     depends_on:
       cassandra-1:
